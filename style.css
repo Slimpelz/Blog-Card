@@ -1,0 +1,85 @@
+@font-face{
+    font-family: 'Figtree-VariableFont_wght';
+    src: url('Fonts/Figtree-VariableFont_wght.ttf' ) format('truetype');
+}
+
+body{
+    background-color: rgb(245, 208, 78);
+    font-family:  'Figtree-VariableFont_wght';
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    border-radius: 1.25rem;
+    border: 0.1rem solid  black;
+    overflow: hidden;
+    width: 21.25rem;
+    box-shadow: 0.5rem 0.5rem 0px 0 black;
+    margin: 3.75rem auto;
+}
+
+.top img{
+    border-radius: 0.9rem;
+    width: 90%;
+    margin: 1rem ;
+    height: auto;
+}
+#learning {
+    background-color: rgb(245, 208, 78);
+    font-weight: bold;
+    width: 20%;
+    position: relative;
+    padding: 0.375rem 0.4375rem;
+    margin-left: 1.25rem;
+    margin-top: 0px;
+    border-radius: 0.4375rem;
+}
+#date{
+    font-weight: 500;
+    margin-left: 1.25rem;
+    font-size: 0.81rem;
+}
+.middle{
+    margin-left: 1.25rem;
+}
+
+.bottom img{
+    width: 2.2rem;
+    height: 2.2rem;
+}
+.bottom p{
+    font-weight: bold;
+    padding-bottom: 0.625rem;
+    margin-top: 0.625rem;
+    font-size: 0.81rem;
+}
+.bottom{
+    display: inline-flex;
+    gap: 0.625rem;
+    margin-left: 1.25rem;
+}
+h3{
+    font-weight:5000;
+}
+.middle p{
+    font-size: 0.87rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+}
+h4{
+    font-weight: bold;
+    margin-top: -1.25rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: white;
+}
